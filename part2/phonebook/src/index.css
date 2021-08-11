@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Andada+Pro:ital,wght@0,400;0,700;1,400&display=swap');
+
+body {  
+    background: #FCEADE;
+    color: #50514F;
+    font-family: 'Andada Pro', serif;  
+    margin: 0;
+    padding: 0 0 2vh 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.Title {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.content {
+    width: 50vw;
+    margin: 0 auto;
+    padding: 2vh 0;
+    border-radius: 5px;
+    text-align: center;
+    background: #FFFFFF;
+    box-shadow: 1px 1px 5px 1px rgba(80,81,79,0.1);
+}
+
+h1, h2, h3{
+    font-family: 'Andada Pro', serif;
+}
+
+.message {
+    color: #6BAEC7;
+    background: #74daff42;
+    font-size: 20px;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.error {
+    color: #FF8A5B;
+    background: #ffc0a72a;
+    font-size: 20px;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.numbers {
+    list-style-type: none;
+    padding: 0;
+}
+
+input {
+    border: none;
+    background: #FCEADE;
+    box-shadow: 2px 2px 5px 2px rgba(80,81,79,0.1);
+    border-radius: 5px;
+}
+
+.entryForm {
+    padding: 2px;
+}
+
+button {
+    border: none;
+    border-radius: 20px;
+    margin: 5px;
+    background: #FCEADE;
+    cursor: pointer;
+    box-shadow: 1px 1px 5px 1px rgba(80,81,79,0.1);
+    transition: 0.5s;
+}
+
+button:hover {
+    background: #FF8A5B;
+    transform: scale(1.05);
+}
+
+.Footer {
+    font-weight: 700;
+    text-align: center;
+    margin-top: 5vh;
+    padding: 1vh 0;
+}
+
+.Footer p {
+    margin: 5px 0;
+}
