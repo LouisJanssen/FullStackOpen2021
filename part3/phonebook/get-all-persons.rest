@@ -1,0 +1,16 @@
+GET https://arcane-river-67871.herokuapp.com/api/persons
+
+###
+POST http://localhost:3001/api/persons/ HTTP/1.1
+content-type: application/json
+
+{
+    "name": "Balibo",
+    "number": "12123123123"
+}
+
+###
+DELETE http://localhost:3001/api/persons/6151e72b8ba8d9312427a06c
+
+###
+GET http://localhost:3001/api/persons/
