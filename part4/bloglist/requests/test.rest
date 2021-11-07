@@ -1,0 +1,28 @@
+GET http://localhost:3003/api/blogs/
+
+###
+POST http://localhost:3003/api/blogs
+content-type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ik1pc3RlclQiLCJpZCI6IjYxODdjNzA4MWI0M2U1YWM4ZDc5ZWM2NCIsImlhdCI6MTYzNjI4OTA3OH0.PdKDZActkB-ee9ow1fDw5NhEJukeObgF8Zgqedqmf4c
+
+{
+  "title": "The end of the world",
+  "author": "Conspiratry forever",
+  "url": "http://www.howtheworldend.com",
+  "likes": 666
+}
+
+###
+DELETE http://localhost:3003/api/blogs/6183ae0b3d213bc5d824375a
+
+###
+
+PUT http://localhost:3003/api/blogs/617a6cfaac3065f4a305241b HTTP/1.1
+content-type: application/json
+
+{
+  "title": "Test 2",
+  "author": "Testify the tester",
+  "url": "http://www.test2.test2/test.com",
+  "likes": 42
+}
